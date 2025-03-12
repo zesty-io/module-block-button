@@ -1,0 +1,101 @@
+
+  - description: null
+    label: "Globals"
+    name: "clippings"
+    sort: 1
+    listed: true
+    hasRoute: false
+    showAsTable: false
+    parent: null
+    content: "/content/clippings.yaml"
+    fields:
+      - name: "site_name"
+        label: "Site Name"
+        description: null
+        datatype: "text"
+        sort: 1
+        required: true
+        relationship: null
+        settings:
+          options: {}
+      - name: "logo"
+        label: "Site Logo"
+        description: null
+        datatype: "images"
+        sort: 2
+        required: null
+        relationship: null
+        settings:
+          limit: 1
+          options: {}
+  - description: null
+    label: "Homepage"
+    name: "homepage"
+    sort: 1
+    listed: true
+    hasRoute: true
+    showAsTable: false
+    parent: null
+    view: "/views/homepage.tpl"
+    content: "/content/homepage.yaml"
+    fields: []
+  - description: ""
+    label: "Button"
+    name: "button"
+    sort: 100
+    listed: false
+    parent: null
+    content: "/content/button.yaml"
+    fields:
+      - name: "og_image"
+        label: "Meta Image"
+        description: "This field allows you to set an open graph image via the SEO tab. An Open Graph (OG) image is an image that appears on a social media post when a web page is shared."
+        datatype: "images"
+        sort: 9999
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: 1
+          list: false
+      - name: "button_text"
+        label: "Button Text"
+        description: ""
+        datatype: "text"
+        sort: 1
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "button_image_icon"
+        label: "Button Image Icon"
+        description: ""
+        datatype: "images"
+        sort: 2
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          limit: ""
+          list: true
+      - name: "button_icon"
+        label: "Button Icon"
+        description: ""
+        datatype: "text"
+        sort: 3
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true
+      - name: "button_url"
+        label: "Button URL"
+        description: ""
+        datatype: "link"
+        sort: 4
+        required: false
+        relationship: null
+        settings:
+          defaultValue: null
+          list: true

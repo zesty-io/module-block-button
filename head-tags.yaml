@@ -1,0 +1,21 @@
+
+  - type: "meta"
+    attributes:
+      content: "black"
+      name: "apple-mobile-web-app-status-bar-style"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"
+      name: "viewport"
+    sort: 0
+  - type: "meta"
+    attributes:
+      content: "IE=edge"
+      http-equiv: "X-UA-Compatible"
+    sort: 0
+  - type: "link"
+    attributes:
+      href: "https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+      rel: "stylesheet"
+    sort: 0

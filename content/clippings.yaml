@@ -1,0 +1,21 @@
+
+  - id: "4d8f-becb-b498"
+    web:
+      metaDescription: ""
+      metaTitle: null
+      metaLinkText: null
+      metaKeywords: null
+      pathPart: null
+      path: null
+      sitemapPriority: -1
+      canonicalTagMode: 1
+      canonicalQueryParamWhitelist: null
+      canonicalTagCustomValue: null
+      parent: "/"
+    meta:
+      sort: 99
+      listed: true
+      createdByUserZUID: "5-88c58ffaa5-hmcl0g"
+    data:
+      logo: ""
+      site_name: "Edit Site Name in Content Clippings"
